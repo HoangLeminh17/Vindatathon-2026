@@ -11,7 +11,7 @@ Vindatathon-2026/
 │
 ├── phan1.ipynb               # [Phần 1] Notebook chứa các đoạn code xử lý và tính toán đáp án trắc nghiệm
 ├── phan2.ipynb               # [Phần 2] Notebook phân tích Exploratory Data Analysis (EDA) & Trực quan hoá
-├── phan3_v6.py               # [Phần 3] Pipeline mô hình dự báo doanh thu (Recursive Gradient Boosting)
+├── phan3.py                  # [Phần 3] Pipeline mô hình dự báo doanh thu (Recursive Gradient Boosting)
 │
 ├── submission.csv            # File kết quả dự báo cuối cùng cho tập test (Format chuẩn của Kaggle)
 ├── requirements.txt          # Danh sách các thư viện Python cần thiết
@@ -43,7 +43,7 @@ Cả hai phần này được viết bằng Jupyter Notebook để dễ dàng qu
 ### Bước 4: Chạy mô hình Dự báo Doanh thu (Phần 3)
 Chạy trực tiếp file script Python bằng lệnh sau trên Terminal:
 ```bash
-python phan3_v6.py
+python phan3.py
 ```
 **Luồng xử lý của hệ thống:**
 1. Code sẽ tiến hành Cross-Validation theo thời gian (Shadow Validation) trên 548 ngày cuối của tập Train để in ra các metric kiểm chứng (R², MAE, RMSE).
